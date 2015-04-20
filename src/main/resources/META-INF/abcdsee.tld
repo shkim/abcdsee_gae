@@ -1,0 +1,59 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+	<tlib-version>1.0</tlib-version>
+	<short-name>gp</short-name>
+	<uri>http://dev.ogp.kr/jsp/jstl/abcdsee</uri>
+<!--
+	<tag>
+		<name>abbr</name>
+		<tag-class>shkim.abcdsee.qaboard.tags.AbbrTag</tag-class>
+		<body-content>JSP</body-content>
+		<info>This Tag abbreviates long text within a specified limit length.</info>
+		<attribute>
+			<name>limit</name>
+			<required>true</required>
+			<description>Provide the string limit length</description>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>dots</name>
+			<required>false</required>
+			<description>Provide the abbreviation dots string</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>nl2br</name>
+		<tag-class>shkim.abcdsee.qaboard.tags.Nl2brTag</tag-class>
+		<body-content>JSP</body-content>
+		<info>This Tag converts new-line characters to BR tags.</info>
+	</tag>
+	
+-->	
+	<tag>
+		<name>pagination</name>
+		<tag-class>shkim.abcdsee.qaboard.tags.PaginationTag</tag-class>
+		<body-content>JSP</body-content>
+		<info>This Tag renders HTML page navigation links.</info>
+		<attribute>
+			<name>current</name>
+			<required>true</required>
+			<description>Provide the current page number</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>total</name>
+			<required>true</required>
+			<description>Provide the total page count number</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<function>
+		<name>bitwiseAnd</name>
+		<function-class>shkim.abcdsee.qaboard.tags.Functions</function-class>
+		<function-signature>boolean bitwiseAnd(int, int)</function-signature>
+	</function>
+</taglib>

@@ -1,0 +1,65 @@
+help.priority.critical=시급함, 반드시 발생, 프로그램이 죽는 버그
+help.priority.high=높은 확률로 발생, 프로그램이 죽거나 비정상적 결과
+help.priority.middle=사용에 큰 지장이 없으나 개선이 필요함
+help.priority.low=낮은 확률로 발생, 기타 오동작
+
+alert.done=완료하였습니다.
+alert.needsign.towrite=로그인이 필요합니다.
+alert.invalid.param=올바른 파라메터가 아닙니다.
+alert.postnew.success=성공적으로 등록되었습니다.
+alert.postnew.fail=등록에 실패하였습니다. 다시 시도하여 주십시오.
+alert.postreply.success=성공적으로 수정하였습니다.
+alert.postreply.fail=수정에 실패하였습니다. 다시 시도하여 주십시오.
+alert.form.fillnick=별명을 입력하여 주십시오.
+alert.form.fillsubj=제목을 입력하여 주십시오.
+alert.form.filldesc=버그 내용을 입력하여 주십시오.
+
+title.reportform=새로운 버그 리포트 작성
+title.replyfor트m=버그 상태 업데이
+title.editform=버그 리포트 수정
+
+label.signin=로그인
+label.signout=로그아웃
+label.submit=등록
+label.nickname=별명
+label.priority=우선순위
+label.subject=제목
+label.date=날짜
+label.description=버그 내용
+
+label.all=전체
+label.priority.1=시급함
+label.priority.2=높음
+label.priority.3=보통
+label.priority.4=낮음
+
+label.todo.prio.1=높음
+label.todo.prio.2=중간
+label.todo.prio.3=낮음
+
+label.stchg.0=(변경 없음)
+label.stchg.1=버그를 발견/신고 하였습니다.
+label.stchg.2=(개발자) 버그를 확인/채택하였습니다.
+label.stchg.3=버그가 아직 고쳐지지 않았다고 보고하였습니다.
+label.stchg.4=(개발자) 버그를 수정하였습니다.
+label.stchg.5=(개발자) 버그가 아니거나 의도된 결과라며 기각하였습니다.
+label.stchg.6=버그가 수정된 것을 확인하였습니다.
+label.stchg.7=(개발자) 버그 추척을 종료합니다.
+
+label.state.0=변경 안함
+label.state.1=발견됨
+label.state.2=채택됨
+label.state.3=수정안됨
+label.state.4=수정됨
+label.state.5=버그아님
+label.state.6=수정확인
+label.state.7=종결됨
+
+help.state.0=변경하지 않음
+help.state.1=error
+help.state.2=(개발자) 버그 상황을 인지함
+help.state.3=(유저) 버그가 수정되지 않았다고 보고함
+help.state.4=(개발자) 버그를 수정함
+help.state.5=(개발자) 버그가 아니거나 의도된 결과
+help.state.6=(유저/개발자) 버그가 수정됨을 확인함
+help.state.7=(개발자) 이 버그를 종료함
